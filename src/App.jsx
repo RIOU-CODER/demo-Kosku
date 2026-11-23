@@ -57,10 +57,9 @@ function App() {
             Simulasi Fitur Kosku (React Hooks)
           </h2>
           <div className="max-w-4xl mx-auto flex flex-col gap-[30px]">
-            {/* Panggil 3 komponen tugasmu di sini setelah dibuat: */}
-            {/* <CounterKamar /> */}
-            {/* <ChecklistTugas /> */}
-            {/* <DataPenghuni /> */}
+            <CounterKamar />
+            <ChecklistTugas />
+            <DataPenghuni />
           </div>
         </section>
       </main>
