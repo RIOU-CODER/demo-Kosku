@@ -1,7 +1,7 @@
 // Nanti import 3 komponen tugasmu di bagian paling atas ini:
-// import CounterKamar from './components/CounterKamar'
-// import ChecklistTugas from './components/ChecklistTugas'
-// import DataPenghuni from './components/DataPenghuni'
+import CounterKamar from './components/CounterKamar'
+import ChecklistTugas from './components/ChecklistTugas'
+import DataPenghuni from './components/DataPenghuni'
 
 function App() {
   const brandName = "Kosku"
