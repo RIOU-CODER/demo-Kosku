@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Kosku - Tugas HTML & CSS</title>
+    <!-- Link Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-[#333] leading-[1.6] bg-[#f9f9f9] m-0 p-0 box-border">
+
+    <!-- HEADER -->
+    <header class="flex justify-between items-center bg-[#ffffff] px-[40px] py-[20px] border-b border-[#ddd]">
+        <div class="text-[1.25rem] font-bold text-[#2c3e50]">Kosku</div>
+        <nav class="flex gap-[20px]">
+            <a href="#beranda" class="no-underline text-[#555] font-medium hover:text-[#007bff]">Beranda</a>
+            <a href="#fitur" class="no-underline text-[#555] font-medium hover:text-[#007bff]">Fitur</a>
+            <a href="#tentang" class="no-underline text-[#555] font-medium hover:text-[#007bff]">Tentang</a>
+        </nav>
+    </header>
+
+    <!-- MAIN BODY -->
+    <main>
+        <!-- Section 1: Pengenalan -->
+        <section id="beranda" class="bg-[#ffffff] py-[60px] px-[40px] text-center border-b border-[#eee]">
+            <h1 class="text-[2rem] font-bold mb-[15px] text-[#2c3e50]">Kelola Kos Jadi Lebih Mudah</h1>
+            <p>Aplikasi manajemen kos modern untuk mempermudah pencatatan kamar, pembayaran bulanan, dan pengelolan penghuni secara efisien.</p>
+        </section>
+
+        <!-- Section 2: Fitur -->
+        <section id="fitur" class="py-[60px] px-[40px] bg-[#f9f9f9] text-center">
+            <!-- Tailwind me-reset ukuran heading bawaan browser, jadi kita atur manual ke ukuran default h2 -->
+            <h2 class="text-[1.5em] font-bold mb-[30px] text-[#2c3e50]">Fitur Unggulan</h2>
+            <div class="flex justify-center gap-[20px] flex-wrap">
+                <div class="bg-[#ffffff] p-[25px] border border-[#ddd] rounded-[6px] w-[300px] text-left">
+                    <h3 class="text-[1.17em] font-bold mb-[10px] text-[#007bff]">Pencatatan Kamar</h3>
+                    <p>Pantau ketersediaan kamar kos secara real-time dengan status huni yang jelas.</p>
+                </div>
+                <div class="bg-[#ffffff] p-[25px] border border-[#ddd] rounded-[6px] w-[300px] text-left">
+                    <h3 class="text-[1.17em] font-bold mb-[10px] text-[#007bff]">Manajemen Pembayaran</h3>
+                    <p>Catat riwayat pembayaran sewa bulanan penghuni dengan laporan yang terstruktur.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="flex justify-between items-start bg-[#2c3e50] text-[#ffffff] p-[40px] gap-[20px]">
+        <div class="flex-1">
+            <h3 class="text-[1.17em] font-bold">Kosku</h3>
+        </div>
+        <div class="flex-1">
+            <p class="text-[0.9rem] text-[#bbb]">Platform digital sederhana yang dirancang untuk membantu pengelolaan manajemen kos secara praktis dan efisien.</p>
+        </div>
+        <div class="flex-1 text-[0.9rem] text-[#bbb]">
+            <p>Kontak: info@kosku.app</p>
+            <p>Bekasi, Jawa Barat</p>
+        </div>
+    </footer>
+
+</body>
+</html>
