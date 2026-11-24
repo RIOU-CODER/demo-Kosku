@@ -27,7 +27,7 @@ function App() {
       {/* MAIN BODY */}
       <main>
         {/* Section 1: Pengenalan */}
-        <section id="beranda" className="bg-[#ffffff] py-[60px] px-[40px] text-center border-b border-[#eee]">
+        <section id="beranda" className="bg-[#ffffff] py-[270px] px-[40px] text-center border-b border-[#eee]">
           <h1 className="text-[2rem] font-bold mb-[15px] text-[#2c3e50]">
             Kelola Kos Jadi Lebih Mudah
           </h1>
@@ -37,7 +37,7 @@ function App() {
         </section>
 
         {/* Section 2: Fitur */}
-        <section id="fitur" className="py-[60px] px-[40px] bg-[#f9f9f9] text-center">
+        <section id="fitur" className="min-h-screen flex flex-col justify-center items-center px-[270px] py-[40px] bg-[#f9f9f9] text-center">
           <h2 className="text-[1.5em] font-bold mb-[30px] text-[#2c3e50]">Fitur Unggulan</h2>
           <div className="flex justify-center gap-[20px] flex-wrap">
             <div className="bg-[#ffffff] p-[25px] border border-[#ddd] rounded-[6px] w-[300px] text-left">
@@ -75,7 +75,7 @@ function App() {
           </p>
         </div>
         <div className="flex-1 text-[0.9rem] text-[#bbb]">
-          <p>Kontak: info@kosku.app</p>
+          <p>Kontak: RIOU-CODER@kosku.app</p>
           <p>Bekasi, Jawa Barat</p>
         </div>
       </footer>
